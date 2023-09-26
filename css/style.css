@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'roboto', sans-serif ;
+
+}
+
+main{
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.left{
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width:329px;
+    height: 583px;
+
+margin-right: 40px;
+
+}
+
+.card{
+    border: 2px solid red;
+    width: 393px;
+    height: 405px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 50px;
+
+}
+
+.card > h1{
+    
+    font-size: 20px;
+    color: #00A551;
+    margin: 15px;
+    font-weight: 500;
+    width: 155px;
+    height: 23px;
+    
+   
+}
+
+.card > h2{
+
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.btn-loggin{
+    width: 150px;
+    margin: 30px;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #F4F4F4;
+    background: #00A551;
+    cursor: pointer;
+    
+
+
+}
+
+
+.card > h3{
+    font-size: 12px;
+    font-weight: 400;
+    width: 254px;
+    height: 14px;
+
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px 0
+
+}
+
+input{
+    border:none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    background: #F4F4F4;
+    color:#F4F4F4;
+    outline: none;
+    font-size: 12pt;
+    border: 2px solid transparent
+    
+}
+
+
+
+
+
