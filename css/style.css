@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
     font-family:'roboto', sans-serif ;
 
@@ -14,9 +14,8 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #f5f5f5;
 }
-
-
 
 
 
@@ -27,31 +26,33 @@ main{
     display: flex;
     width:329px;
     height: 583px;
-    margin-right: 40px;
 
 }
 
 .right{
-
-    width: 50vw;
-    height: 100vh;
+    width: 513px;
+    height: 583px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    background: #Fff;
 
 
 }
 .card {
  
-    width: 450px;
-    height: 500px;
+    width: 393px;
+    height: 405px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 30px 35px 30px 35px;
-   border-radius: 16px;
-   box-shadow: 10px 10px 50px;
+    padding:40px, 20px, 40px, 20px ;
+    border-radius: 8px;
+    box-shadow: 0px 0px 7px #7F7E83;
+
+   
    }
 
 
@@ -66,20 +67,20 @@ main{
     justify-content: center;
     align-items: center;
     
+    
    
 }
 
 .card > h2{
-
     font-size: 12px;
     font-weight: 400;
-    margin: 15px;
-
+    width: 247px;
+    height: 14px;
 }
 
 .btn-loggin{
     width: 150px;
-    margin: 30px;
+    margin: 10px;
     padding: 15px 0;
     border-radius: 8px;
     border: none;
@@ -88,9 +89,6 @@ main{
     color: #F4F4F4;
     background: #00A551;
     cursor: pointer;
-    
-
-
 }
 
 
@@ -115,8 +113,10 @@ main{
 }
 
 input{
+    
     border:none;
-    width: 100%;
+    width: 309px;
+    height: 30px;
     border-radius: 10px;
     padding: 15px;
     background: #F4F4F4;
@@ -129,7 +129,7 @@ input{
 
 label {
     margin: 1px  ;
-    
+    color: #7F7E83;  
   }
 
   a {
